@@ -1,0 +1,22 @@
+Decomposition By Bussiness Domain
+------------------------------------------------------------
+
+    ParentsEnrollService
+    InfantEnrollService
+    VaccineTrackingService
+    BillingService
+
+    ParentsEnrollService
+        1. Parents are enrolled when the mother gets admited in a maternity ward.
+        2. Track parents' health checkup data and delivery complications and measures.
+            
+    InfantEnrollService
+        3. Track baby birth time related medico parameters.
+        4. Generate the baby vaccination schedule.
+    
+    VaccineTrackingService
+        6. Vaccination given shall be recorded.
+        7. Baby growth parameters shall be recorded. 
+    
+    BillingService
+        8. Billing Services.

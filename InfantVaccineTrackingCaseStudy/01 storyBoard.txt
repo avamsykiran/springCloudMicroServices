@@ -1,0 +1,13 @@
+This applcation is all about creating an online platform that facilitates tracking
+vaccination, health and growth metrics of an infant (0 to 60 months). The application
+shall facilitate the below high level requiriements 
+ 
+ 1. Parents are enrolled when the mother gets admited in a maternity ward.
+ 2. Track parents' health checkup data and delivery complications and measures.
+ 3. Track baby birth time related medico parameters.
+ 4. Generate the baby vaccination schedule.
+ 5. A reminder shall be triggered on the event of a vaccine due approach(a week earlier).
+ 6. Vaccination given shall be recorded.
+ 7. Baby growth parameters shall be recorded. 
+ 8. Billing Services.
+ 
