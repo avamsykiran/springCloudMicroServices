@@ -1,0 +1,61 @@
+Decomposition by Sub-Domain (Entites)
+--------------------------------------------
+
+    ParentsEnrollService
+        1. Parents are enrolled when the mother gets admited in a maternity ward.
+        2. Track parents' health checkup data and delivery complications and measures.
+
+        AdmissionEntity
+            admissionNumber         : Integer
+            motherName              : String
+            fatherName              : String
+            dateAndTimeOfAdmission  : LocalDateTime
+            complications           : Set<ComplicationEntity>
+        
+        ComplicationEntity
+            logId                   : Integer
+            complication            : String
+            measure                 : String
+     
+
+    InfantEnrollService
+        3. Track baby birth time related medico parameters.
+    
+        BabyEntity
+            babyId                  : Integer
+            admissionNumber         : Integer
+            name                    : String
+            gender                  : Enum(BOY,GIRL)
+            birthWeight             : Double
+            birthHeight             : Double
+            bloodGroup              : Double
+               
+
+    VaccineTrackingService
+        4. Generate the baby vaccination schedule.
+        6. Vaccination given shall be recorded.
+        7. Baby growth parameters shall be recorded. 
+
+        VaccineScheduleTemplateEntity
+            templateId  : Integer
+            vaccine     : String
+            dueInMonths : Double
+        
+        VaccineScheduleEntity
+            babyId          : Integer
+            sequenceOrder   : Integer
+            dueDate         : LocalDate
+            vaccine         : String
+            actualDate      : Double
+            weight          : Double
+            Height          : Double
+        
+    BillingService
+        8. Billing Services.
+
+        BillEntity
+            billNumber      : Integer
+            admissionNumber : Integer      
+            serviceOffered  : String
+            billDate        : LocalDate    
+            amount          : Double
