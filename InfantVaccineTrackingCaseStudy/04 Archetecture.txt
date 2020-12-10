@@ -1,0 +1,20 @@
+    
+    DiscoveryService            Eureka
+                                Spring Cloud Config Client
+
+    API Gateway                 Zuul 
+                                Spring Cloud Config Client
+            Circuit Breaking    Hystrix
+    
+    Config Server               Spring Cloud Config Server
+        
+    pesDb   ParentsEnrollService                
+    iesDb   InfantEnrollService
+    vtsDb   VaccineTrackingService
+    bsDb    BillingService
+
+                        Spring Cloud Actuator   /health
+                        Spring Cloud Config Client
+                        Discovery Client
+                        Ribbon (Client Side Load Balancing)
+                        FeignClient (Tool for Inter-microservice)

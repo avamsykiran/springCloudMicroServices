@@ -28,7 +28,7 @@ Decomposition by Sub-Domain (Entites)
             gender                  : Enum(BOY,GIRL)
             birthWeight             : Double
             birthHeight             : Double
-            bloodGroup              : Double
+            bloodGroup              : String
                
 
     VaccineTrackingService
@@ -39,14 +39,14 @@ Decomposition by Sub-Domain (Entites)
         VaccineScheduleTemplateEntity
             templateId  : Integer
             vaccine     : String
-            dueInMonths : Double
+            dueInDays   : Integer
         
         VaccineScheduleEntity
             babyId          : Integer
             sequenceOrder   : Integer
             dueDate         : LocalDate
             vaccine         : String
-            actualDate      : Double
+            actualDate      : LocalDate
             weight          : Double
             Height          : Double
         
