@@ -1,0 +1,46 @@
+
+Step1
+
+        Individual MicroServices     
+        Inter Microservice communication through RestTemplate
+
+Step2
+        Individual MicroServices
+     
+        Inter Microservice communication through FeignClient      
+        Client Side Load Balancing through Netflix Ribbon
+
+Step3                
+        Individual MicroServices
+        Inter Microservice communication through FeignClient     
+        Client Side Load Balancing through Netflix Ribbon
+     
+        Automated Service Registration and Discovery through Netflix Eureka
+
+Step4                
+        Individual MicroServices
+        Inter Microservice communication through FeignClient
+        Client Side Load Balancing through Netflix Ribbon
+        Automated Service Registration and Discovery through Netflix Eureka
+     
+        API Gateway through Zuul + Circuit Breaker through Hystrix
+
+Step5
+        Individual MicroServices
+        Inter Microservice communication through FeignClient
+        Client Side Load Balancing through Netflix Ribbon
+        Automated Service Registration and Discovery through Netflix Eureka     
+        API Gateway through Zuul + Circuit Breaker through Hystrix
+
+        External Configuaration through Spring Cloud Config
+
+Step6
+        Individual MicroServices
+        Inter Microservice communication through FeignClient
+        Client Side Load Balancing through Netflix Ribbon
+        Automated Service Registration and Discovery through Netflix Eureka     
+        API Gateway through Zuul + Circuit Breaker through Hystrix
+        External Configuaration through Spring Cloud Config
+
+        Distributed tracing through Sleuth & Zipkin
+
