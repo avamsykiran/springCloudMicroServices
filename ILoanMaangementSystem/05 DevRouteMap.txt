@@ -1,0 +1,59 @@
+
+Step1
+        Individual MicroServices     
+        Inter Microservice communication through RestTemplate
+
+        LoanMicroservice                
+        LoanTypeMicroservice
+
+Step2
+        Individual MicroServices
+     
+        Inter Microservice communication through FeignClient      
+        Client Side Load Balancing through Netflix Ribbon
+
+Step3                
+        Individual MicroServices
+        Inter Microservice communication through FeignClient     
+        Client Side Load Balancing through Netflix Ribbon
+     
+        Automated Service Registration and Discovery through Netflix Eureka
+
+Step4                
+        Individual MicroServices
+        Inter Microservice communication through FeignClient
+        Client Side Load Balancing through Netflix Ribbon
+        Automated Service Registration and Discovery through Netflix Eureka
+     
+        API Gateway through Zuul + Circuit Breaker through Hystrix
+                Eureka Client
+                Zuul
+
+Step5
+        Individual MicroServices                  
+        Inter Microservice communication through FeignClient
+        Client Side Load Balancing through Netflix Ribbon
+        Automated Service Registration and Discovery through Netflix Eureka     
+        API Gateway through Zuul + Circuit Breaker through Hystrix
+                
+        External Configuaration through Spring Cloud Config
+                Eureka Client
+                config-server
+
+        cloud config Client
+        implementation 'org.springframework.cloud:spring-cloud-starter-config'
+
+Step6
+        Individual MicroServices
+        Inter Microservice communication through FeignClient
+        Client Side Load Balancing through Netflix Ribbon
+        Automated Service Registration and Discovery through Netflix Eureka     
+        API Gateway through Zuul + Circuit Breaker through Hystrix
+        External Configuaration through Spring Cloud Config
+
+        Distributed tracing through Sleuth & Zipkin
+              implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+	      implementation 'org.springframework.cloud:spring-cloud-starter-zipkin'
+	
+              
+     

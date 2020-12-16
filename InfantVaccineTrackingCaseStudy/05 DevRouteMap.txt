@@ -50,10 +50,6 @@ Step6
         External Configuaration through Spring Cloud Config
 
         Distributed tracing through Sleuth & Zipkin
-                compile 'org.springframework.cloud:spring-cloud-starter-sleuth'
-
-                compile 'io.zipkin.java:zipkin-autoconfigure-ui'     /zipkin
-                compile 'io.zipkin.java:zipkin-server'
-
-                @EnableZipkinServer
-
+                implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+              
+     
